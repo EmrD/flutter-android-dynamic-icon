@@ -1,16 +1,21 @@
-# myapp
+# Flutter Dynamic App Icon
 
-A new Flutter project.
+A Flutter project that uses ```android_dynamic_icon``` to create a dynamic app icon.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
 A few resources to get you started if this is your first Flutter project:
 
+- [Android Dynamic Icon Package](https://github.com/yatharth25/android_dynamic_icon/tree/main)
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+- Clone this repository
+
+- Change the example icons to your icons in ```android/app/src/main/res/drawable/*```
+
+- Run ```flutter pub get``` to install the packages
+
+- Run ```flutter run``` to start the application.

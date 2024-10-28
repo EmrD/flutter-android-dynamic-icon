@@ -57,20 +57,20 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Uygulama simgesini değiştirmek için butonlara basın:',
+              'Click to change the icon:',
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () => _changeIcon('IconOne'),
-              child: const Text('İkon 1\'i Ayarla'),
+              child: const Text('Icon 1'),
             ),
             ElevatedButton(
               onPressed: () => _changeIcon('IconTwo'),
-              child: const Text('İkon 2\'yi Ayarla'),
+              child: const Text('Icon 2'),
             ),
             const SizedBox(height: 20),
             const Text(
-              'Mevcut simgeyi görmek için uygulamayı yeniden başlatın.',
+              'Close your application to see the new icon!',
             ),
           ],
         ),
